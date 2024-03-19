@@ -1,6 +1,9 @@
 # Statistical-and-Machine-Learning-Approaches-for-Portfolio-Optimization
 Six portfolio optimization strategies were considered, plus one benchmark. We considered methods relying both in ML and common statistical procedures; and we run an out-of-sample back-test for each strategy. Through performance metric calculations, we determine that ML methods significantly improve returns, but not always increase the Sharpe Ratio.
 
+## Downloading Data
+The first step to reproduce this project is to download the folder with the data of the NASDAQ. If you are using Google Colab or Jupyter notebook, you can upload the data to your environment and then copy the path to load the data.
+
 ## Steps of the Code
 Start by Data Processing and EDA notebook code. This is the first programming step, where the data was fully prepared for running of the models and back-tests. From this notebook, one can export the cleaned CSV file, which serves as an input for the other three notebooks.
 
