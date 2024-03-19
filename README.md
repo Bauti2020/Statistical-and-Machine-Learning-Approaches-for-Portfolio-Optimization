@@ -6,8 +6,10 @@ The portfolio optimization models were run on daily data of 110 stocks from the 
 ## Overview
 You can find an overview of the project by reading the paper uploaded as a PDF file in this repository. This was the culmination of my project.
 
-## Downloading Data
+## Downloading the Data
 The first step to reproduce this project is to download the folder with the data of the NASDAQ. If you are using Google Colab or Jupyter notebook, you can upload the data to your environment and then copy the path to load the data. Note that this data contains CSV files of more than 5000 stocks. The first notebook cleans this data, and filters the stocks and the stock information that is necessary for the analysis carried out. The CSV files contain daily price data from several different time periods (since they emerged until they were left out or until April 2020).
+
+Data was obtained from: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset?resource=download
 
 ## Steps of the Code
 Start by Data Processing and EDA notebook code. This is the first programming step, where the data was fully prepared for running of the models and back-tests. From this notebook, one can export the cleaned CSV file, which serves as an input for the other three notebooks.
