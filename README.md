@@ -3,6 +3,9 @@ Six portfolio optimization strategies were considered, plus one benchmark. We co
 
 The portfolio optimization models were run on data of 110 stocks from the NASDAQ from the period of 2000 until April 2020.
 
+## Overview
+You can find an overview of the project by reading the paper uploaded as a PDF file in this repository. This was the culmination of my project.
+
 ## Downloading Data
 The first step to reproduce this project is to download the folder with the data of the NASDAQ. If you are using Google Colab or Jupyter notebook, you can upload the data to your environment and then copy the path to load the data. Note that this data contains CSV files of more than 5000 stocks. The first notebook cleans this data, and filters the stocks and the stock information that is necessary for the analysis carried out.
 
