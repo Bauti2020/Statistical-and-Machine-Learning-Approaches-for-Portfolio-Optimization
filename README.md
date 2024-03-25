@@ -6,6 +6,8 @@ The portfolio optimization models were run on daily data of 110 stocks from the 
 ## Overview
 You can find an overview of the project by reading the paper uploaded as a PDF file in this repository. This was the culmination of my project.
 
+Note: it is better to clone the repository or download the files. The "Preview" method of Github is not optimal for understading the code, and it does not detect the sections of the notebook as I divided them when coding.
+
 ## Downloading the Data
 The first step to reproduce this project is to download the folder with the data of the NASDAQ. This is a huge Kaggle Dataset with data of both stocks and ETFs. For my analysis, I used the data of stocks only. If you are using Google Colab or Jupyter notebook, you can upload the data to your environment and then copy the path to load the data. Note that this data contains CSV files of more than 5000 stocks. The first notebook cleans this data, and filters the stocks and the stock information that is necessary for the analysis carried out. The CSV files contain daily price data from several different time periods (since they emerged until they were left out or until April 2020).
 
