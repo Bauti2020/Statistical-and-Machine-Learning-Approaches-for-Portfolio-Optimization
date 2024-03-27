@@ -28,3 +28,8 @@ Finally, move on to Risk Parity and Hierarchical Risk Parity notebook. This note
 The first notebook starts by webscraping the tickers of the consitituent stocks of the NASDAQ 100 and NASDAQ Financial-100 indices. We do this to filter the stocks we want to select. We also delete the data we do not need, keeping only the Adjusted Closed prices of each of the selected stocks, and the Dates (daily). We cleaned the data, using Pandas package, calculated daily returns and reorganized the data such that every column is one stock. We dropped the columns (stocks) that had NaN values. This is how we end up with 110 stocks.
 
 The models are Naive Mean Variance (MVP portfolio and Max Sharpe Portfolio); Mean Variance with Machine Learning (estimate expected returns with Facebook Prophet forecasts, and forecast volatility using GARCH), Risk Parity and Hierarchical Risk Parity. The notebooks explain thoroughly the steps of the code, so refer to them for more details.
+
+## About Rolling Sharpe Ratios and Annualizing Methods for Statistical Measures
+The large values of the Sharpe Ratios occur as a consequence of the annualizing method, which has been found to greatly overstate Sharpe Ratios unless certain distributional assumptions hold. We still chose to use this annualizing method because of its simplicity, and because the purpose of this study is comparative, not suggestive of an investment advice. 
+
+For more about annualizing methods, see _The Statistics of Sharpe Ratios_ by Andrew W. Lo (2002) in the _Financial Analysts Journal_; _Annual Risk Measures and Related Statistics_ by Arno Weber (2017) from _Ortec Finance_.
