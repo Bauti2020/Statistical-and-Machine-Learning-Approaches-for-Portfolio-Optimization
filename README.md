@@ -13,7 +13,7 @@ The first step to reproduce this project is to download the folder with the data
 
 Data downloaded from: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset?resource=download
 
-Alternatively, this repository contains the cleaned data, as exported from the first notebook (read steps below) as a CSV file. If you want to skip straight to the models and the back-testing algorithm, use this data and start from the second notebook.
+Alternatively, this repository contains the cleaned data, as exported from the first notebook (read steps below) as a CSV file. If you want to skip straight to the models and the back-testing algorithm, use this data (export_data.csv) and start from the second notebook.
 
 ## Steps of the Code
 Start by Data Processing and EDA notebook code. This is the first programming step, where the data was fully prepared for running of the models and back-tests. From this notebook, one can export the cleaned CSV file, which serves as an input for the other three notebooks.
