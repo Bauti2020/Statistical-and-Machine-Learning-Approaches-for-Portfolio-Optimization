@@ -4,7 +4,7 @@ Six portfolio optimization strategies were considered, plus one benchmark. We co
 The portfolio optimization models were run on daily data of 110 stocks from the NASDAQ from the period of 2000 until April 2020.
 
 ## Overview
-You can find an overview of the project by reading the paper (to be published soon) in the following journal link: .........  (you can also check the first basic draft which is a report of the project in paper format uploaded as a PDF in this repository). Note that some models and their parameters which be subject to change and improved in the future.
+You can find an overview of the project by reading the paper (to be published soon) in the following journal link: .........  (you can also check the first basic draft which is a report of the project in paper format uploaded as a PDF in this repository). Note that some models and their parameters will be subject to change and improved in the future.
 
 Note: it is better to clone the repository or download the files. The "Preview" method of Github is not optimal for understading the code, and it does not detect the sections of the notebook as I divided them when coding.
 
