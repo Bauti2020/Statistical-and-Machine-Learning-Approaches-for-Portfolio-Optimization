@@ -26,3 +26,6 @@ Finally, move on to Risk Parity and Hierarchical Risk Parity notebook. These not
 The first notebook starts by webscraping the tickers of the consitituent stocks of the NASDAQ 100 and NASDAQ Financial-100 indices. We do this to filter the stocks we want to select. We also delete the data we do not need, keeping only the Adjusted Closed prices of each of the selected stocks, and the Dates (daily). We cleaned the data, using Pandas package, calculated daily returns and reorganized the data such that every column is one stock. We dropped the columns (stocks) that had NaN values. This is how we end up with 110 stocks.
 
 The models are Naive Mean Variance (MVP portfolio and Max Sharpe Portfolio); Mean Variance with Machine Learning (estimate expected returns with Facebook Prophet forecasts, and forecast volatility using GARCH), Risk Parity and Hierarchical Risk Parity. The notebooks explain thoroughly the steps of the code, so refer to them for more details.
+
+## Disclaimer
+This project was carried out for scientific research purposes only, and does not constitute any investment advice.
